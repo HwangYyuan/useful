@@ -1,0 +1,16 @@
+@mixin flexBetween {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+@mixin flexCenter {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+@mixin columnBetween {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+$base-color:#f8f8f8;
